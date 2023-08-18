@@ -1,7 +1,8 @@
 import { QuizForm } from './QuizForm';
-import { QuizList } from './QuizList';
+import { QuizList } from './QuizList/QuizList';
 import { SearchBar } from './SearchBar';
 import quizItems from '../quiz-items.json';
+import { GlobalStyle } from './GlobalStyle';
 
 export const App = () => {
   return (
@@ -9,7 +10,7 @@ export const App = () => {
       <QuizForm />
       <SearchBar />
       <QuizList items={quizItems} />
+      <GlobalStyle/>
     </div>
   );
 };
-

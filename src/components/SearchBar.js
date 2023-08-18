@@ -1,7 +1,8 @@
 export const SearchBar = () => {
-  return <div>
-    <input type="text" placeholder="Topic filtr" />
-    <select>
-    </select>
-  </div>;
+  return (
+    <div>
+      <input type="text" placeholder="Topic filtr" />
+      <select></select>
+    </div>
+  );
 };
